@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005409EFB2199EDF9E1D7C1A /* libPods-HDRequestManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3853244A17E2D86033536FA /* libPods-HDRequestManagerUITests.a */; };
+		350FE6F01D5099DB0048CE50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE6EF1D5099DB0048CE50 /* main.m */; };
+		350FE6F31D5099DB0048CE50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE6F21D5099DB0048CE50 /* AppDelegate.m */; };
+		350FE6F61D5099DB0048CE50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE6F51D5099DB0048CE50 /* ViewController.m */; };
+		350FE6F91D5099DB0048CE50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350FE6F71D5099DB0048CE50 /* Main.storyboard */; };
+		350FE6FB1D5099DB0048CE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350FE6FA1D5099DB0048CE50 /* Assets.xcassets */; };
+		350FE6FE1D5099DB0048CE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350FE6FC1D5099DB0048CE50 /* LaunchScreen.storyboard */; };
+		350FE7091D5099DB0048CE50 /* HDRequestManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE7081D5099DB0048CE50 /* HDRequestManagerTests.m */; };
+		350FE7141D5099DB0048CE50 /* HDRequestManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE7131D5099DB0048CE50 /* HDRequestManagerUITests.m */; };
+		350FE7261D509BD50048CE50 /* HDApiConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE7231D509BD50048CE50 /* HDApiConfigure.m */; };
+		350FE7271D509BD50048CE50 /* HDApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE7251D509BD50048CE50 /* HDApiManager.m */; };
+		350FE72E1D509BE30048CE50 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE7291D509BE30048CE50 /* DemoModel.m */; };
+		350FE72F1D509BE30048CE50 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE72B1D509BE30048CE50 /* DemoTableViewController.m */; };
+		350FE7301D509BE30048CE50 /* DemoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FE72D1D509BE30048CE50 /* DemoViewModel.m */; };
+		79D04EBCDFFE5C3798382906 /* libPods-HDRequestManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F62D046F90C30DC8060B4EDB /* libPods-HDRequestManager.a */; };
+		C5725FE3D22D3C80C6CEED7D /* libPods-HDRequestManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 858E472F050F685B1D0E22DA /* libPods-HDRequestManagerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		350FE7051D5099DB0048CE50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350FE6E31D5099DB0048CE50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350FE6EA1D5099DB0048CE50;
+			remoteInfo = HDRequestManager;
+		};
+		350FE7101D5099DB0048CE50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350FE6E31D5099DB0048CE50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350FE6EA1D5099DB0048CE50;
+			remoteInfo = HDRequestManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17898246B405BB2F3F645DFD /* Pods-HDRequestManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDRequestManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDRequestManager/Pods-HDRequestManager.release.xcconfig"; sourceTree = "<group>"; };
+		2A3401E8245972C87A7115E1 /* Pods-HDRequestManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDRequestManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDRequestManagerUITests/Pods-HDRequestManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		350FE6EB1D5099DB0048CE50 /* HDRequestManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDRequestManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350FE6EF1D5099DB0048CE50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		350FE6F11D5099DB0048CE50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		350FE6F21D5099DB0048CE50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		350FE6F41D5099DB0048CE50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		350FE6F51D5099DB0048CE50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		350FE6F81D5099DB0048CE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		350FE6FA1D5099DB0048CE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350FE6FD1D5099DB0048CE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350FE6FF1D5099DB0048CE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350FE7041D5099DB0048CE50 /* HDRequestManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDRequestManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350FE7081D5099DB0048CE50 /* HDRequestManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDRequestManagerTests.m; sourceTree = "<group>"; };
+		350FE70A1D5099DB0048CE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350FE70F1D5099DB0048CE50 /* HDRequestManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDRequestManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350FE7131D5099DB0048CE50 /* HDRequestManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDRequestManagerUITests.m; sourceTree = "<group>"; };
+		350FE7151D5099DB0048CE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350FE7221D509BD50048CE50 /* HDApiConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDApiConfigure.h; sourceTree = "<group>"; };
+		350FE7231D509BD50048CE50 /* HDApiConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDApiConfigure.m; sourceTree = "<group>"; };
+		350FE7241D509BD50048CE50 /* HDApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDApiManager.h; sourceTree = "<group>"; };
+		350FE7251D509BD50048CE50 /* HDApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDApiManager.m; sourceTree = "<group>"; };
+		350FE7281D509BE30048CE50 /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		350FE7291D509BE30048CE50 /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		350FE72A1D509BE30048CE50 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		350FE72B1D509BE30048CE50 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		350FE72C1D509BE30048CE50 /* DemoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewModel.h; sourceTree = "<group>"; };
+		350FE72D1D509BE30048CE50 /* DemoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewModel.m; sourceTree = "<group>"; };
+		350FE7321D509CAA0048CE50 /* HDRequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDRequestConfig.h; sourceTree = "<group>"; };
+		3DE0197399126F4FBE6663B3 /* Pods-HDRequestManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDRequestManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDRequestManagerUITests/Pods-HDRequestManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E48D9546A4E5F88870DCEE3 /* Pods-HDRequestManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDRequestManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDRequestManager/Pods-HDRequestManager.debug.xcconfig"; sourceTree = "<group>"; };
+		5D1410371D606050E1BDE073 /* Pods-HDRequestManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDRequestManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDRequestManagerTests/Pods-HDRequestManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		858E472F050F685B1D0E22DA /* libPods-HDRequestManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HDRequestManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3853244A17E2D86033536FA /* libPods-HDRequestManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HDRequestManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8108549AEC5C94E376F3EB /* Pods-HDRequestManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDRequestManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDRequestManagerTests/Pods-HDRequestManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F62D046F90C30DC8060B4EDB /* libPods-HDRequestManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HDRequestManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350FE6E81D5099DB0048CE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D04EBCDFFE5C3798382906 /* libPods-HDRequestManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350FE7011D5099DB0048CE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5725FE3D22D3C80C6CEED7D /* libPods-HDRequestManagerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350FE70C1D5099DB0048CE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005409EFB2199EDF9E1D7C1A /* libPods-HDRequestManagerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216D23A52F2536A9EB21F8D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F62D046F90C30DC8060B4EDB /* libPods-HDRequestManager.a */,
+				858E472F050F685B1D0E22DA /* libPods-HDRequestManagerTests.a */,
+				B3853244A17E2D86033536FA /* libPods-HDRequestManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		350FE6E21D5099DB0048CE50 = {
+			isa = PBXGroup;
+			children = (
+				350FE6ED1D5099DB0048CE50 /* HDRequestManager */,
+				350FE7071D5099DB0048CE50 /* HDRequestManagerTests */,
+				350FE7121D5099DB0048CE50 /* HDRequestManagerUITests */,
+				350FE6EC1D5099DB0048CE50 /* Products */,
+				B160FBAAAC9363475BEE4A64 /* Pods */,
+				216D23A52F2536A9EB21F8D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		350FE6EC1D5099DB0048CE50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350FE6EB1D5099DB0048CE50 /* HDRequestManager.app */,
+				350FE7041D5099DB0048CE50 /* HDRequestManagerTests.xctest */,
+				350FE70F1D5099DB0048CE50 /* HDRequestManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350FE6ED1D5099DB0048CE50 /* HDRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				350FE7211D509BAB0048CE50 /* HDRequestManager */,
+				350FE6F11D5099DB0048CE50 /* AppDelegate.h */,
+				350FE6F21D5099DB0048CE50 /* AppDelegate.m */,
+				350FE6F41D5099DB0048CE50 /* ViewController.h */,
+				350FE6F51D5099DB0048CE50 /* ViewController.m */,
+				350FE7281D509BE30048CE50 /* DemoModel.h */,
+				350FE7291D509BE30048CE50 /* DemoModel.m */,
+				350FE72A1D509BE30048CE50 /* DemoTableViewController.h */,
+				350FE72B1D509BE30048CE50 /* DemoTableViewController.m */,
+				350FE72C1D509BE30048CE50 /* DemoViewModel.h */,
+				350FE72D1D509BE30048CE50 /* DemoViewModel.m */,
+				350FE6FA1D5099DB0048CE50 /* Assets.xcassets */,
+				350FE6FC1D5099DB0048CE50 /* LaunchScreen.storyboard */,
+				350FE6F71D5099DB0048CE50 /* Main.storyboard */,
+				350FE6FF1D5099DB0048CE50 /* Info.plist */,
+				350FE6EE1D5099DB0048CE50 /* Supporting Files */,
+			);
+			path = HDRequestManager;
+			sourceTree = "<group>";
+		};
+		350FE6EE1D5099DB0048CE50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				350FE6EF1D5099DB0048CE50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		350FE7071D5099DB0048CE50 /* HDRequestManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				350FE7081D5099DB0048CE50 /* HDRequestManagerTests.m */,
+				350FE70A1D5099DB0048CE50 /* Info.plist */,
+			);
+			path = HDRequestManagerTests;
+			sourceTree = "<group>";
+		};
+		350FE7121D5099DB0048CE50 /* HDRequestManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				350FE7131D5099DB0048CE50 /* HDRequestManagerUITests.m */,
+				350FE7151D5099DB0048CE50 /* Info.plist */,
+			);
+			path = HDRequestManagerUITests;
+			sourceTree = "<group>";
+		};
+		350FE7211D509BAB0048CE50 /* HDRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				350FE7221D509BD50048CE50 /* HDApiConfigure.h */,
+				350FE7231D509BD50048CE50 /* HDApiConfigure.m */,
+				350FE7241D509BD50048CE50 /* HDApiManager.h */,
+				350FE7251D509BD50048CE50 /* HDApiManager.m */,
+				350FE7321D509CAA0048CE50 /* HDRequestConfig.h */,
+			);
+			path = HDRequestManager;
+			sourceTree = "<group>";
+		};
+		B160FBAAAC9363475BEE4A64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E48D9546A4E5F88870DCEE3 /* Pods-HDRequestManager.debug.xcconfig */,
+				17898246B405BB2F3F645DFD /* Pods-HDRequestManager.release.xcconfig */,
+				BE8108549AEC5C94E376F3EB /* Pods-HDRequestManagerTests.debug.xcconfig */,
+				5D1410371D606050E1BDE073 /* Pods-HDRequestManagerTests.release.xcconfig */,
+				3DE0197399126F4FBE6663B3 /* Pods-HDRequestManagerUITests.debug.xcconfig */,
+				2A3401E8245972C87A7115E1 /* Pods-HDRequestManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350FE6EA1D5099DB0048CE50 /* HDRequestManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350FE7181D5099DB0048CE50 /* Build configuration list for PBXNativeTarget "HDRequestManager" */;
+			buildPhases = (
+				901E24797CB67E508E5937C4 /* [CP] Check Pods Manifest.lock */,
+				350FE6E71D5099DB0048CE50 /* Sources */,
+				350FE6E81D5099DB0048CE50 /* Frameworks */,
+				350FE6E91D5099DB0048CE50 /* Resources */,
+				3C7DAEE438B4363626EDF000 /* [CP] Embed Pods Frameworks */,
+				DD516180E0EF07DA11B5907C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDRequestManager;
+			productName = HDRequestManager;
+			productReference = 350FE6EB1D5099DB0048CE50 /* HDRequestManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		350FE7031D5099DB0048CE50 /* HDRequestManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350FE71B1D5099DB0048CE50 /* Build configuration list for PBXNativeTarget "HDRequestManagerTests" */;
+			buildPhases = (
+				7A6F6DF0FB9BCB56F52F3E0F /* [CP] Check Pods Manifest.lock */,
+				350FE7001D5099DB0048CE50 /* Sources */,
+				350FE7011D5099DB0048CE50 /* Frameworks */,
+				350FE7021D5099DB0048CE50 /* Resources */,
+				B6DD7FEFEFE57DFF0F2BB028 /* [CP] Embed Pods Frameworks */,
+				557AB926099EE0DECD23D566 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350FE7061D5099DB0048CE50 /* PBXTargetDependency */,
+			);
+			name = HDRequestManagerTests;
+			productName = HDRequestManagerTests;
+			productReference = 350FE7041D5099DB0048CE50 /* HDRequestManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		350FE70E1D5099DB0048CE50 /* HDRequestManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350FE71E1D5099DB0048CE50 /* Build configuration list for PBXNativeTarget "HDRequestManagerUITests" */;
+			buildPhases = (
+				11C7BE804F7F19B9D2A6145E /* [CP] Check Pods Manifest.lock */,
+				350FE70B1D5099DB0048CE50 /* Sources */,
+				350FE70C1D5099DB0048CE50 /* Frameworks */,
+				350FE70D1D5099DB0048CE50 /* Resources */,
+				A61A89F47BD4D37B856DC175 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350FE7111D5099DB0048CE50 /* PBXTargetDependency */,
+			);
+			name = HDRequestManagerUITests;
+			productName = HDRequestManagerUITests;
+			productReference = 350FE70F1D5099DB0048CE50 /* HDRequestManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350FE6E31D5099DB0048CE50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HundredLee;
+				TargetAttributes = {
+					350FE6EA1D5099DB0048CE50 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					350FE7031D5099DB0048CE50 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 350FE6EA1D5099DB0048CE50;
+					};
+					350FE70E1D5099DB0048CE50 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 350FE6EA1D5099DB0048CE50;
+					};
+				};
+			};
+			buildConfigurationList = 350FE6E61D5099DB0048CE50 /* Build configuration list for PBXProject "HDRequestManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350FE6E21D5099DB0048CE50;
+			productRefGroup = 350FE6EC1D5099DB0048CE50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350FE6EA1D5099DB0048CE50 /* HDRequestManager */,
+				350FE7031D5099DB0048CE50 /* HDRequestManagerTests */,
+				350FE70E1D5099DB0048CE50 /* HDRequestManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350FE6E91D5099DB0048CE50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350FE6FE1D5099DB0048CE50 /* LaunchScreen.storyboard in Resources */,
+				350FE6FB1D5099DB0048CE50 /* Assets.xcassets in Resources */,
+				350FE6F91D5099DB0048CE50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350FE7021D5099DB0048CE50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350FE70D1D5099DB0048CE50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11C7BE804F7F19B9D2A6145E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C7DAEE438B4363626EDF000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDRequestManager/Pods-HDRequestManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557AB926099EE0DECD23D566 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDRequestManagerTests/Pods-HDRequestManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6F6DF0FB9BCB56F52F3E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		901E24797CB67E508E5937C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A61A89F47BD4D37B856DC175 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDRequestManagerUITests/Pods-HDRequestManagerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DD7FEFEFE57DFF0F2BB028 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDRequestManagerTests/Pods-HDRequestManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD516180E0EF07DA11B5907C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDRequestManager/Pods-HDRequestManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350FE6E71D5099DB0048CE50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350FE72E1D509BE30048CE50 /* DemoModel.m in Sources */,
+				350FE6F61D5099DB0048CE50 /* ViewController.m in Sources */,
+				350FE7271D509BD50048CE50 /* HDApiManager.m in Sources */,
+				350FE7301D509BE30048CE50 /* DemoViewModel.m in Sources */,
+				350FE6F31D5099DB0048CE50 /* AppDelegate.m in Sources */,
+				350FE72F1D509BE30048CE50 /* DemoTableViewController.m in Sources */,
+				350FE6F01D5099DB0048CE50 /* main.m in Sources */,
+				350FE7261D509BD50048CE50 /* HDApiConfigure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350FE7001D5099DB0048CE50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350FE7091D5099DB0048CE50 /* HDRequestManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350FE70B1D5099DB0048CE50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350FE7141D5099DB0048CE50 /* HDRequestManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350FE7061D5099DB0048CE50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350FE6EA1D5099DB0048CE50 /* HDRequestManager */;
+			targetProxy = 350FE7051D5099DB0048CE50 /* PBXContainerItemProxy */;
+		};
+		350FE7111D5099DB0048CE50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350FE6EA1D5099DB0048CE50 /* HDRequestManager */;
+			targetProxy = 350FE7101D5099DB0048CE50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		350FE6F71D5099DB0048CE50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350FE6F81D5099DB0048CE50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		350FE6FC1D5099DB0048CE50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350FE6FD1D5099DB0048CE50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		350FE7161D5099DB0048CE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		350FE7171D5099DB0048CE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350FE7191D5099DB0048CE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E48D9546A4E5F88870DCEE3 /* Pods-HDRequestManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HDRequestManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundred.HDRequestManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		350FE71A1D5099DB0048CE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17898246B405BB2F3F645DFD /* Pods-HDRequestManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HDRequestManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundred.HDRequestManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		350FE71C1D5099DB0048CE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8108549AEC5C94E376F3EB /* Pods-HDRequestManagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HDRequestManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundred.HDRequestManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDRequestManager.app/HDRequestManager";
+			};
+			name = Debug;
+		};
+		350FE71D1D5099DB0048CE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1410371D606050E1BDE073 /* Pods-HDRequestManagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HDRequestManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundred.HDRequestManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDRequestManager.app/HDRequestManager";
+			};
+			name = Release;
+		};
+		350FE71F1D5099DB0048CE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE0197399126F4FBE6663B3 /* Pods-HDRequestManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = HDRequestManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundred.HDRequestManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HDRequestManager;
+			};
+			name = Debug;
+		};
+		350FE7201D5099DB0048CE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3401E8245972C87A7115E1 /* Pods-HDRequestManagerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = HDRequestManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundred.HDRequestManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HDRequestManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350FE6E61D5099DB0048CE50 /* Build configuration list for PBXProject "HDRequestManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350FE7161D5099DB0048CE50 /* Debug */,
+				350FE7171D5099DB0048CE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350FE7181D5099DB0048CE50 /* Build configuration list for PBXNativeTarget "HDRequestManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350FE7191D5099DB0048CE50 /* Debug */,
+				350FE71A1D5099DB0048CE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350FE71B1D5099DB0048CE50 /* Build configuration list for PBXNativeTarget "HDRequestManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350FE71C1D5099DB0048CE50 /* Debug */,
+				350FE71D1D5099DB0048CE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350FE71E1D5099DB0048CE50 /* Build configuration list for PBXNativeTarget "HDRequestManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350FE71F1D5099DB0048CE50 /* Debug */,
+				350FE7201D5099DB0048CE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350FE6E31D5099DB0048CE50 /* Project object */;
+}
