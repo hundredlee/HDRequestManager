@@ -82,9 +82,53 @@ static AFHTTPSessionManager *manager = nil;
             
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             
-//            [KVNProgress showErrorWithStatus:@"network error"];
+
             
         }];
+    }else if(self.apiConfigure.requestMethod == HDREQUEST_METHOD_GET){
+        
+        [manager GET:self.apiConfigure.url parameters:newParams progress:^(NSProgress * _Nonnull uploadProgress) {
+            
+            
+            
+        } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+            
+            if (self.apiConfigure.afterRequest) {
+                self.apiConfigure.afterRequest(responseObject);
+            }
+            
+            if (self.apiConfigure.statusProcessor) {
+                self.apiConfigure.statusProcessor(responseObject);
+            }
+            
+        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+            
+            
+            
+        }];
+    
+    }else if(self.apiConfigure.requestMethod == HDREQUEST_METHOD_PUT){
+        
+        [manager PUT:self.apiConfigure.url parameters:newParams progress:^(NSProgress * _Nonnull uploadProgress) {
+            
+            
+            
+        } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+            
+            if (self.apiConfigure.afterRequest) {
+                self.apiConfigure.afterRequest(responseObject);
+            }
+            
+            if (self.apiConfigure.statusProcessor) {
+                self.apiConfigure.statusProcessor(responseObject);
+            }
+            
+        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+            
+            
+            
+        }];
+        
     }
     
     //you can add other request methods here
